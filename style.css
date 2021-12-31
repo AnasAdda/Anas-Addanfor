@@ -143,7 +143,7 @@ section{
     background-color:#fff ;
     border: 2px solid #fff;
     min-height: 14em;
-    width: 32em;
+    width: 25em;
     overflow: hidden;
     border-radius: 15px;
     margin: 20px;
@@ -178,4 +178,93 @@ project-category{
 }
 .project-title .more_details:hover{
     color: #E66E6C;
+}
+
+.contact .content .icon{
+    font-size: 4.5em;
+}
+.contact .info h3{
+    color: #000;
+}
+.contact .info p{
+    font-size: 1.2em;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #01040c;
+    color: #fff;
+    padding: 1.5em;
+}
+.footer .social-icons a{
+    font-size:1.3em ;
+    padding: 0px 12px 0px 0px;
+    color: #fff;
+
+}
+.footer p{
+    font-size: 1.2em;
+    font-weight: 600;
+    align-self: center;
+}
+.footer p span{
+    color: #07a0fc;
+}
+@media(max-width:1020px){
+    header{
+        width: 100%;
+        padding: 12px 20px;
+    }
+    .navigation a{
+        
+        padding-left: 10px;
+    }
+    .logo{
+        font-size: 1.8em;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main h2{
+        font-size: 1em;
+    }
+    .main h3{
+        font-size: 1.6em;
+    }
+    .content{
+        flex-direction:column ;
+        align-items: center;
+    }
+    .progects .content .project_card{
+        width: 21.25em; ;
+    }
+}
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+}
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+    }
+    header{
+        width: 100%;
+        padding: 12px 4px;
+    }
+    .navigation a{
+        
+        padding-left: 10px;
+    }
+    .logo{
+        font-size: 1.8em;
+    }
+    .footer{
+        padding: 1.2px;
+    }
+
+    
 }
