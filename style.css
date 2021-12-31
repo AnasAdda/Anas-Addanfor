@@ -132,5 +132,50 @@ section{
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
+}
+.progects{
+    background-color:#01040c;
+}
+.progects .content{
+    margin-top: 30px;
+}
+.project_card{
+    background-color:#fff ;
+    border: 2px solid #fff;
+    min-height: 14em;
+    width: 32em;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.project_card:hover{
+    transform: scale(1.1);
+}
+.project_card:hover .img{
+    opacity: 0.95;
+}
+.project_card .img img{
+    width: 100%;
+}
+.project-info{
+    padding: 1em;
+}
+project-category{
+    font-size: 0.8em;
+    color: #000;
 
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.project-title .more_details{
+    color: #07a0fc;
+}
+.project-title .more_details:hover{
+    color: #E66E6C;
 }
