@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 180px;
+}
+.logo{
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: #07a0fc;
+    font-weight: 700;
+}
+.navigation a{
+    padding: 0 15px;
+    color: #07a0fc;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.navigation a:hover{
+    color: #E66E6C;
+}
+section{
+    padding: 100px 200px;
+    
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(imeges/male-boxer-boxing-punching-bag.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+.main h2{
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span{
+    display: inline-block;
+    color:#07a0fc ;
+    font-size: 3em;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.main h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main .main_button{
+    color: #fff;
+    background-color: #07a0fc;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 0.9375em 2.1875em;
+    letter-spacing:1px;
+    border-radius: 17px;
+    display: inline-block;
+    margin-bottom: 40px;
+    transition: 0.7s  ease;
+}
+.main_button:hover{
+    background-color:#074ac7 ;
+    transform: scale(1.1);
+}
+.social-icons a{
+    color: #fff;
+    font-size: 2em;
+    padding-right: 30px;
+}
