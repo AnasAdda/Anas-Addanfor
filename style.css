@@ -210,10 +210,20 @@ project-category{
 .footer p span{
     color: #07a0fc;
 }
-@media(max-width:1020px){
+@media(max-width:1620px){
     header{
         width: 100%;
         padding: 12px 20px;
+    }
+    .main{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background: url(imeges/Aanas.png) no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-attachment:fixed;
     }
     .navigation a{
         
@@ -231,15 +241,39 @@ project-category{
     .main h2{
         font-size: 1em;
     }
+    
+    .main{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background: url(imeges/Anas.png) no-repeat;
+        background-size:cover;
+        background-position: right;
+        background-attachment:fixed;
+    }
+
     .main h3{
         font-size: 1.6em;
     }
     .content{
-        flex-direction:column ;
+        flex-direction:row ;
         align-items: center;
     }
     .progects .content .project_card{
         width: 21.25em; ;
+    }
+}
+@media(max-width:800px){
+    .main{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background: url(imeges/Anas.png) no-repeat;
+        background-size:cover;
+        background-position: right;
+        background-attachment:fixed;
     }
 }
 @media (max-width:641px){
@@ -247,7 +281,7 @@ project-category{
         font-size: 12px;
     }
 }
-@media (max-width:300px){
+@media (max-width:500px){
     body{
         font-size: 10px;
     }
@@ -265,6 +299,4 @@ project-category{
     .footer{
         padding: 1.2px;
     }
-
-    
 }
