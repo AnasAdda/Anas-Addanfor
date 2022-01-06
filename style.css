@@ -283,7 +283,7 @@ project-category{
         align-items: center;
         background: url(imeges/Anaas.jpeg) no-repeat;
         background-size:cover;
-        background-position: -1251px 0px;
+        background-position: right;
         background-attachment:fixed;
     }
 }
