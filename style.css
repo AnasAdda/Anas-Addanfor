@@ -29,13 +29,24 @@ header{
     font-weight: 700;
 }
 .navigation a{
-    padding: 0 15px;
+    margin: 0 15px;
     color: #07a0fc;
     font-size: 1.1em;
     font-weight: 500;
+    width: fit-content;
+    position: relative;
+
 }
-.navigation a:hover{
-    color: #E66E6C;
+.navigation a::before{
+    content: attr(data-text);
+    position: absolute;
+    -webkit-text-fill-color: #E66E6C;
+    transition:0.4s;
+    width: 0;
+    overflow: hidden;
+}
+.navigation a:hover::before{
+    width: 100%;
 }
 section{
     padding: 100px 200px;
