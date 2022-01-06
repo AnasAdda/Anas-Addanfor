@@ -46,7 +46,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(imeges/anas00.png) no-repeat;
+    background: url(imeges/Anas.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment:fixed;
@@ -220,7 +220,7 @@ project-category{
         min-height: 100vh;
         display: flex;
         align-items: center;
-        background: url(imeges/Aanas.png) no-repeat;
+        background: url(imeges/Anas.jpg) no-repeat;
         background-size:cover;
         background-position: center;
         background-attachment:fixed;
@@ -247,7 +247,7 @@ project-category{
         min-height: 100vh;
         display: flex;
         align-items: center;
-        background: url(imeges/Anas.png) no-repeat;
+        background: url(imeges/Anas.jpg) no-repeat;
         background-size:cover;
         background-position: right;
         background-attachment:fixed;
@@ -270,7 +270,7 @@ project-category{
         min-height: 100vh;
         display: flex;
         align-items: center;
-        background: url(imeges/Anas.png) no-repeat;
+        background: url(imeges/Anas.jpg) no-repeat;
         background-size:cover;
         background-position: right;
         background-attachment:fixed;
